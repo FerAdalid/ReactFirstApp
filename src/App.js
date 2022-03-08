@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function App() {
   const[counter, setCounter] = useState(0)
-console.log('holi')
+
   return (
     <div>
       <h1>Contador {counter}</h1>
